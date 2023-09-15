@@ -68,6 +68,8 @@
         setTimeout( () => {
             window.location.href = 'index.html'
         }, 3000)
+
+        formulario.reset();
     }
 
     function imprimirAlerta(mensaje, tipo) {
