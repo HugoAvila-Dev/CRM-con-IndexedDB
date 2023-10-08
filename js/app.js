@@ -14,8 +14,6 @@
     })
 
     function eliminarRegistro(e) {
-        e.preventDefault();
-
         if (e.target.classList.contains('eliminar')) {
 
             const idEliminar = Number(e.target.dataset.cliente);
